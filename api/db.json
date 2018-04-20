@@ -1,0 +1,114 @@
+{
+    "words":[
+        {
+            "word_uyghur_cyrilic":"баш",
+            "translation_russian":"голова",
+            "related_words":[
+                {
+                    "word_uyghur_cyrilic":"баш кийим",
+                    "translation_russian":"головной убор",
+                    "category":"human"    
+                },
+                {
+                    "word_uyghur_cyrilic":"баш сүңиги",
+                    "translation_russian":"череп",
+                    "category":"human"   
+                },
+                {
+                    "word_uyghur_cyrilic":"баш кесәр",
+                    "translation_russian":"головорез",
+                    "category":"human"   
+                },
+                {
+                    "word_uyghur_cyrilic":"баш ағриқ",
+                    "translation_russian":"головная боль",
+                    "figurative":"морока",
+                    "category":"human"  
+                },
+                {
+                    "word_uyghur_cyrilic":"сақал баш",
+                    "translation_russian":"длинноволосый",
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"манда баш",
+                    "translation_russian":"непричесанная голова",
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"мүндүк баш",
+                    "translation_russian":"коротковолосый",
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш ағримақ",
+                    "translation_russian":"испытывать головную боль",
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"бешим ағриватиду",
+                    "translation_russian":"у меня болит голова",
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш айлиниш",
+                    "translation_russian":"головокружение",
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш урмақ",
+                    "translation_russian":["кланяться", "бить челом"],
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш уруш",
+                    "translation_russian":["поклон"],
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш еғитмақ",
+                    "translation_russian":["кивать", "кивнуть"],
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш еғитиш",
+                    "translation_russian":["кивок"],
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"беши билән беримән",
+                    "translation_russian":["отдаю целиком", "полностью", "отдаю целиком"],
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"у бешини түвән салди",
+                    "translation_russian":["он опустил голову"],
+                    "category":"human"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш",
+                    "translation_russian":["головка", "колос"],
+                    "category":"nature"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш",
+                    "translation_russian":["головка", "колос"],
+                    "category":"nature"
+                },
+                {
+                    "word_uyghur_cyrilic":"бұғдай беши",
+                    "translation_russian":["колос пшеницы"],
+                    "category":"nature"
+                },
+                {
+                    "word_uyghur_cyrilic":"пийаз беши",
+                    "translation_russian":["головка лука", "луковица"],
+                    "category":"nature"
+                }
+                
+            ], 
+            "origin":"",
+            "id":1
+        }
+    ]
+}
