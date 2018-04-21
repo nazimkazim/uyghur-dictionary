@@ -3,7 +3,7 @@ import { http } from './http';
 //document.addEventListener('DOMContentLoaded', getWords);
 
 // Search input
-const searchWord = document.getElementById("search_word");
+const searchWord = document.querySelector(".input");
 
 // Array of categories
 const categories = [];
@@ -42,11 +42,9 @@ function getWords(input) {
             // Cache related words categories container
             let related_words_categories_container = document.querySelector('.categories_container');
 
-
             if (matchedWord) {
-
                 // Append found words to container
-                document.querySelector('.container').innerHTML = `
+                document.querySelector('.my-container').innerHTML = `
                 <br>
                 <span>${word.word_uyghur_cyrilic} - ${word.translation_russian}</span>
                 `;
@@ -62,16 +60,20 @@ function getWords(input) {
 
                 });
 
+                // Assign unique categories to the variable
                 const _categories = getCategories(categories);
 
+                // Loop unique categories
                 _categories.forEach(function (category) {
-                    categories_output += `<a href="${category}">${category}</a>`
+                    categories_output += `<a class="level-item" href="#">${category}</a>`
                 })
 
-                related_words_container.innerHTML = words_output;
-                //console.table(categories);
+                // Display related word on page
+                related_words_container.innerHTML = `
+                <div class="title is-3">Выражения и словосочетания</div>
+                ${words_output}`;
 
-
+                // Display categories on page
                 related_words_categories_container.innerHTML = categories_output
             }
         }))
