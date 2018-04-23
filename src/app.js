@@ -92,7 +92,7 @@ function getWords(input) {
                     v.addEventListener('click', function (e) {
                         const cat_val = e.target.innerText;
                         const res = toggleWordsOnCategories(cat_val);
-                        console.log(res);
+                        //console.log(res);
                     });
 
                 })
@@ -105,20 +105,22 @@ function getWords(input) {
 
     // Function to toggle words on categories
     function toggleWordsOnCategories(category_text) {
+        // Get direct chilren from related words container
         const childrenNodeList = related_words_container.children;
+
+        // Get length of the children
         const childrenLen = related_words_container.children.length - 1;
 
         for (var i = 1; i <= childrenLen; i++) {
             if (childrenNodeList[i].classList.value === category_text) {
-                //console.log("true");
-                //console.log(category_text);
+                console.log("true");
+                console.log(category_text);
                 childrenNodeList[i].classList.add('show');
             } else {
-                childrenNodeList[i].classList.add('hidden');
+                childrenNodeList[i].classList.add('hide');
             }
-
+            
         }
-
         //console.log(childrenNodeList);
     }
 
