@@ -4,6 +4,8 @@ import { http } from './http';
 
 // Search input
 const searchWord = document.querySelector(".input");
+// Cache related words container
+const related_words_container = document.querySelector('.related_words_container');
 
 // Array of categories
 const categories = [];
@@ -36,8 +38,6 @@ function getWords(input) {
             // Fetch all related words
             const related_words = word.related_words;
 
-            // Cache related words container
-            let related_words_container = document.querySelector('.related_words_container');
 
             // Cache related words categories container
             let related_words_categories_container = document.querySelector('.categories_container');
@@ -65,8 +65,13 @@ function getWords(input) {
 
                 // Loop unique categories
                 _categories.forEach(function (category) {
-                    categories_output += `<a class="level-item" href="#">${category}</a>`
+                    categories_output += `
+                    <a class="level-item tag is-primary is-medium category-item" href="#">
+                        ${category}
+                    </a>`
                 })
+
+
 
                 // Display related word on page
                 related_words_container.innerHTML = `
@@ -74,10 +79,48 @@ function getWords(input) {
                 ${words_output}`;
 
                 // Display categories on page
-                related_words_categories_container.innerHTML = categories_output
+                related_words_categories_container.innerHTML =
+                    `<div class="tags">
+                        ${categories_output}
+                    </div>`
+
+                // Fetch categories values 
+                const cat_vals = document.querySelectorAll('.level-item');
+
+                // Loop through all categories values
+                cat_vals.forEach(function (v) {
+                    v.addEventListener('click', function (e) {
+                        const cat_val = e.target.innerText;
+                        const res = toggleWordsOnCategories(cat_val);
+                        console.log(res);
+                    });
+
+                })
+
             }
+            //const children = related_words_container.childNodes;
+            //console.log(children);
         }))
         .catch(err => console.log(err));
+
+    // Function to toggle words on categories
+    function toggleWordsOnCategories(category_text) {
+        const childrenNodeList = related_words_container.children;
+        const childrenLen = related_words_container.children.length - 1;
+
+        for (var i = 1; i <= childrenLen; i++) {
+            if (childrenNodeList[i].classList.value === category_text) {
+                //console.log("true");
+                //console.log(category_text);
+                childrenNodeList[i].classList.add('show');
+            } else {
+                childrenNodeList[i].classList.add('hidden');
+            }
+
+        }
+
+        //console.log(childrenNodeList);
+    }
 
     // Function responsible for creating a unique array
     function getCategories(categories) {
