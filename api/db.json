@@ -116,9 +116,69 @@
                     "category":"неодушевленный предмет"
                 },
                 {
+                    "word_uyghur_cyrilic":"баш тартмақ",
+                    "translation_russian":["колоситься", "заколоситься"],
+                    "category":"неодушевленный предмет"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш чиқармақ",
+                    "translation_russian":["колоситься", "заколоситься"],
+                    "category":"неодушевленный предмет"
+                },
+                {
+                    "word_uyghur_cyrilic":"қара баш кесили",
+                    "translation_russian":["головня (болезнь злаковых)"],
+                    "category":"неодушевленный предмет"
+                },
+                {
+                    "word_uyghur_cyrilic":"қара қән",
+                    "translation_russian":["головка сахара", "сахарная головка"],
+                    "category":"неодушевленный предмет"
+                },
+                {
                     "word_uyghur_cyrilic":"жил беши",
                     "translation_russian":["начало года"],
-                    "category":"в смысле начала чего-либо"
+                    "category":"начало чего-либо"
+                },
+                {
+                    "word_uyghur_cyrilic":"дәрйаниң баш йақтики еқими",
+                    "translation_russian":["верхнее течение реки"],
+                    "category":"начало чего-либо"
+                },
+                {
+                    "word_uyghur_cyrilic":"баштин аяқ",
+                    "translation_russian":["от начала до конца","с головы до ног","целиком"],
+                    "category":"начало чего-либо"
+                },
+                {
+                    "word_uyghur_cyrilic":"дарйаниң баш терипи",
+                    "translation_russian":["исток реки"],
+                    "category":"начало чего-либо"
+                },
+                {
+                    "word_uyghur_cyrilic":"тағниң бешида",
+                    "translation_russian":["на вершине горы"],
+                    "category":"вершина, верхняя часть"
+                },
+                {
+                    "word_uyghur_cyrilic":"баш",
+                    "translation_russian":["изголовье"],
+                    "category":"изголовье"
+                },
+                {
+                    "word_uyghur_cyrilic":"он баш мал",
+                    "translation_russian":["десять голов скота"],
+                    "category":"голова (счетное слово)"
+                },
+                {
+                    "word_uyghur_cyrilic":"бир баш пийаз",
+                    "translation_russian":["луковка"],
+                    "category":"голова (счетное слово)"
+                },
+                {
+                    "word_uyghur_cyrilic":["хәр киши бешиға", "адам бешиға"],
+                    "translation_russian":["на каждого человека"],
+                    "category":"голова (счетное слово)"
                 }
                 
             ], 

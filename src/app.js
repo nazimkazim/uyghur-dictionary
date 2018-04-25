@@ -45,7 +45,7 @@ function getWords(input) {
             if (matchedWord) {
                 // Append found words to container
                 document.querySelector('.my-container').innerHTML = `
-                <section class="hero is-primary is-bold">
+                <section class="hero is-primary">
                 <div class="hero-body">
                     <div class="container">
                     <h1 class="title">
@@ -120,7 +120,7 @@ function getWords(input) {
         // Get direct chilren from related words container
         const childrenNodeList = related_words_container.children;
         const dividedClass = category_text.split(" ")[0];
-        //console.log(dividedClass[0]);
+        console.log(dividedClass);
 
         // Get length of the children
         const childrenLen = related_words_container.children.length - 1;
