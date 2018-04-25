@@ -66,12 +66,17 @@ function getWords(input) {
                 // Loop unique categories
                 _categories.forEach(function (category) {
                     categories_output += `
-                    <a class="level-item tag is-primary is-medium category-item" href="#">
+                    <a class="level-item tag is-info is-medium category-item" href="#">
                         ${category}
-                    </a>`
+                    </a>
+                    `
                 })
 
-
+                categories_output +=`
+                <a class="level-item tag is-success is-medium category-item" href="#">
+                    показать все слова
+                </a>
+                `
 
                 // Display related word on page
                 related_words_container.innerHTML = `
@@ -119,11 +124,16 @@ function getWords(input) {
             if (childrenNodeList[i].classList.contains(dividedClass)) {
                 //console.log("true");
                 //console.log(childrenNodeList[i].classList);
-                //console.log(category_text);
+                console.log(category_text);
                 childrenNodeList[i].classList.toggle('show');
                 childrenNodeList[i].classList.remove('hide');
             } else {
                 childrenNodeList[i].classList.add('hide');
+            }
+
+            if (category_text === "показать все слова") {
+                childrenNodeList[i].classList.toggle("show");
+                childrenNodeList[i].classList.remove('hide');
             }
         }
         //console.log(childrenNodeList);
