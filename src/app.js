@@ -107,21 +107,27 @@ function getWords(input) {
     function toggleWordsOnCategories(category_text) {
         // Get direct chilren from related words container
         const childrenNodeList = related_words_container.children;
+        const dividedClass = category_text.split(" ")[0];
+        //console.log(dividedClass[0]);
 
         // Get length of the children
         const childrenLen = related_words_container.children.length - 1;
 
+        // Loop thorough classes of children node list
         for (var i = 1; i <= childrenLen; i++) {
-            if (childrenNodeList[i].classList.value === category_text) {
-                console.log("true");
-                console.log(category_text);
-                childrenNodeList[i].classList.add('show');
+            // check if child node contains class of a category
+            if (childrenNodeList[i].classList.contains(dividedClass)) {
+                //console.log("true");
+                //console.log(childrenNodeList[i].classList);
+                //console.log(category_text);
+                childrenNodeList[i].classList.toggle('show');
+                childrenNodeList[i].classList.remove('hide');
             } else {
                 childrenNodeList[i].classList.add('hide');
             }
-            
         }
         //console.log(childrenNodeList);
+
     }
 
     // Function responsible for creating a unique array
