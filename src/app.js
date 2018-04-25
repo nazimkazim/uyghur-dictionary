@@ -45,8 +45,15 @@ function getWords(input) {
             if (matchedWord) {
                 // Append found words to container
                 document.querySelector('.my-container').innerHTML = `
-                <br>
-                <span>${word.word_uyghur_cyrilic} - ${word.translation_russian}</span>
+                <section class="hero is-primary is-bold">
+                <div class="hero-body">
+                    <div class="container">
+                    <h1 class="title">
+                    <span>${word.word_uyghur_cyrilic} - ${word.translation_russian}</span>
+                    </h1>
+                    </div>
+                </div>
+                </section>
                 `;
 
                 // Object of related words
@@ -72,7 +79,7 @@ function getWords(input) {
                     `
                 })
 
-                categories_output +=`
+                categories_output += `
                 <a class="level-item tag is-success is-medium category-item" href="#">
                     показать все слова
                 </a>
