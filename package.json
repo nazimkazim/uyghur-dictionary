@@ -23,6 +23,7 @@
   "dependencies": {
     "bulma": "^0.7.1",
     "bulma-start": "0.0.2",
+    "bulma-tooltip": "^1.0.4",
     "json-server": "^0.12.1"
   }
 }

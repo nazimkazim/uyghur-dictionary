@@ -1,189 +1,266 @@
 {
-    "words":[
+  "words": [
+    {
+      "word_uyghur_cyrilic": "баш",
+      "translation_russian": "голова",
+      "origin": "yйгурское",
+      "homonym": "-",
+      "id": 1,
+      "related_words": [
         {
-            "word_uyghur_cyrilic":"баш",
-            "translation_russian":"голова",
-            "related_words":[
-                {
-                    "word_uyghur_cyrilic":"баш кийим",
-                    "translation_russian":"головной убор",
-                    "category":"одушевленный предмет"    
-                },
-                {
-                    "word_uyghur_cyrilic":"баш сүңиги",
-                    "translation_russian":"череп",
-                    "category":"одушевленный предмет"   
-                },
-                {
-                    "word_uyghur_cyrilic":"баш кесәр",
-                    "translation_russian":"головорез",
-                    "category":"одушевленный предмет"   
-                },
-                {
-                    "word_uyghur_cyrilic":"баш ағриқ",
-                    "translation_russian":"головная боль",
-                    "figurative":"морока",
-                    "category":"одушевленный предмет"  
-                },
-                {
-                    "word_uyghur_cyrilic":"сақал баш",
-                    "translation_russian":"длинноволосый",
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"манда баш",
-                    "translation_russian":"непричесанная голова",
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"мүндүк баш",
-                    "translation_russian":"коротковолосый",
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш ағримақ",
-                    "translation_russian":"испытывать головную боль",
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"бешим ағриватиду",
-                    "translation_russian":"у меня болит голова",
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш айлиниш",
-                    "translation_russian":"головокружение",
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш урмақ",
-                    "translation_russian":["кланяться", "бить челом"],
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш уруш",
-                    "translation_russian":["поклон"],
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш еғитмақ",
-                    "translation_russian":["кивать", "кивнуть"],
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш еғитиш",
-                    "translation_russian":["кивок"],
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"беши билән беримән",
-                    "translation_russian":["отдаю целиком", "полностью", "отдаю целиком"],
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"у бешини түвән салди",
-                    "translation_russian":["он опустил голову"],
-                    "category":"одушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш",
-                    "translation_russian":["головка", "колос"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"бұғдай беши",
-                    "translation_russian":["колос пшеницы"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"пийаз беши",
-                    "translation_russian":["головка лука", "луковица"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"мехниң беши",
-                    "translation_russian":["головка гвоздя"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш алмақ",
-                    "translation_russian":["наливаться", "колоситься"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"буғдай баш алди",
-                    "translation_russian":["пшеница налилась", "заколосилась"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш тартмақ",
-                    "translation_russian":["колоситься", "заколоситься"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш чиқармақ",
-                    "translation_russian":["колоситься", "заколоситься"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"қара баш кесили",
-                    "translation_russian":["головня (болезнь злаковых)"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"қара қән",
-                    "translation_russian":["головка сахара", "сахарная головка"],
-                    "category":"неодушевленный предмет"
-                },
-                {
-                    "word_uyghur_cyrilic":"жил беши",
-                    "translation_russian":["начало года"],
-                    "category":"начало чего-либо"
-                },
-                {
-                    "word_uyghur_cyrilic":"дәрйаниң баш йақтики еқими",
-                    "translation_russian":["верхнее течение реки"],
-                    "category":"начало чего-либо"
-                },
-                {
-                    "word_uyghur_cyrilic":"баштин аяқ",
-                    "translation_russian":["от начала до конца","с головы до ног","целиком"],
-                    "category":"начало чего-либо"
-                },
-                {
-                    "word_uyghur_cyrilic":"дарйаниң баш терипи",
-                    "translation_russian":["исток реки"],
-                    "category":"начало чего-либо"
-                },
-                {
-                    "word_uyghur_cyrilic":"тағниң бешида",
-                    "translation_russian":["на вершине горы"],
-                    "category":"вершина, верхняя часть"
-                },
-                {
-                    "word_uyghur_cyrilic":"баш",
-                    "translation_russian":["изголовье"],
-                    "category":"изголовье"
-                },
-                {
-                    "word_uyghur_cyrilic":"он баш мал",
-                    "translation_russian":["десять голов скота"],
-                    "category":"голова (счетное слово)"
-                },
-                {
-                    "word_uyghur_cyrilic":"бир баш пийаз",
-                    "translation_russian":["луковка"],
-                    "category":"голова (счетное слово)"
-                },
-                {
-                    "word_uyghur_cyrilic":["хәр киши бешиға", "адам бешиға"],
-                    "translation_russian":["на каждого человека"],
-                    "category":"голова (счетное слово)"
-                }
-                
-            ], 
-            "origin":"",
-            "id":1
+          "word_uyghur_cyrilic": "баш кийим",
+          "translation_russian": "головной убор",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш сүңиги",
+          "translation_russian": "череп",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш кесәр",
+          "translation_russian": "головорез",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш ағриқ",
+          "translation_russian": "головная боль",
+          "figurative": "морока",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "сақал баш",
+          "translation_russian": "длинноволосый",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "манда баш",
+          "translation_russian": "непричесанная голова",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "мүндүк баш",
+          "translation_russian": "коротковолосый",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш ағримақ",
+          "translation_russian": "испытывать головную боль",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "бешим ағриватиду",
+          "translation_russian": "у меня болит голова",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш айлиниш",
+          "translation_russian": "головокружение",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш урмақ",
+          "translation_russian": ["кланяться", "бить челом"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш уруш",
+          "translation_russian": ["поклон"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш еғитмақ",
+          "translation_russian": ["кивать", "кивнуть"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш еғитиш",
+          "translation_russian": ["кивок"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "беши билән беримән",
+          "translation_russian": [
+            "отдаю целиком",
+            "полностью",
+            "отдаю целиком"
+          ],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "у бешини түвән салди",
+          "translation_russian": ["он опустил голову"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш",
+          "translation_russian": ["головка", "колос"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "бұғдай беши",
+          "translation_russian": ["колос пшеницы"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "пийаз беши",
+          "translation_russian": ["головка лука", "луковица"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "мехниң беши",
+          "translation_russian": ["головка гвоздя"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш алмақ",
+          "translation_russian": ["наливаться", "колоситься"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "буғдай баш алди",
+          "translation_russian": ["пшеница налилась", "заколосилась"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш тартмақ",
+          "translation_russian": ["колоситься", "заколоситься"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "баш чиқармақ",
+          "translation_russian": ["колоситься", "заколоситься"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "қара баш кесили",
+          "translation_russian": ["головня (болезнь злаковых)"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "қара қән",
+          "translation_russian": ["головка сахара", "сахарная головка"],
+          "category": "неодушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "жил беши",
+          "translation_russian": ["начало года"],
+          "category": "начало чего-либо"
+        },
+        {
+          "word_uyghur_cyrilic": "дәрйаниң баш йақтики еқими",
+          "translation_russian": ["верхнее течение реки"],
+          "category": "начало чего-либо"
+        },
+        {
+          "word_uyghur_cyrilic": "баштин аяқ",
+          "translation_russian": [
+            "от начала до конца",
+            "с головы до ног",
+            "целиком"
+          ],
+          "category": "начало чего-либо"
+        },
+        {
+          "word_uyghur_cyrilic": "дарйаниң баш терипи",
+          "translation_russian": ["исток реки"],
+          "category": "начало чего-либо"
+        },
+        {
+          "word_uyghur_cyrilic": "тағниң бешида",
+          "translation_russian": ["на вершине горы"],
+          "category": "вершина, верхняя часть"
+        },
+        {
+          "word_uyghur_cyrilic": "баш",
+          "translation_russian": ["изголовье"],
+          "category": "изголовье"
+        },
+        {
+          "word_uyghur_cyrilic": "он баш мал",
+          "translation_russian": ["десять голов скота"],
+          "category": "голова (счетное слово)"
+        },
+        {
+          "word_uyghur_cyrilic": "бир баш пийаз",
+          "translation_russian": ["луковка"],
+          "category": "голова (счетное слово)"
+        },
+        {
+          "word_uyghur_cyrilic": ["хәр киши бешиға", "адам бешиға"],
+          "translation_russian": ["на каждого человека"],
+          "category": "голова (счетное слово)"
         }
-    ]
+      ]
+    },
+    {
+      "word_uyghur_cyrilic": "айлә",
+      "translation_russian": ["семья", "семейство"],
+      "origin": "арабское",
+      "homonym": "-",
+      "id": 2,
+      "related_words": [
+        {
+          "word_uyghur_cyrilic": "айлә айали",
+          "translation_russian": "домохозяйка",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "айлә-таваби",
+          "translation_russian": ["домохозяйка", "члены семьи", "домочадцы"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "айлә-тавабилири билән",
+          "translation_russian": ["с членами семьи", "с домочадцами"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "айлә-тәвә",
+          "translation_russian": "см. айлә-таваби",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "айлә-тәваби",
+          "translation_russian": "см. айлә-таваби",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "аиличилик",
+          "translation_russian": "семейственность",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "хизмәттә аиличилик",
+          "translation_russian": "семейственность на работе",
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "аилисиз",
+          "translation_russian": ["бессемейный", "не имеющий семьи"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "аилисизлиқ",
+          "translation_russian": ["бессемейность"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "аилилиқ",
+          "translation_russian": ["семейный", "имеющий семью"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "аиливий",
+          "translation_russian": ["семейный", "связанный с жизнью семьи"],
+          "category": "одушевленный предмет"
+        },
+        {
+          "word_uyghur_cyrilic": "аилә турмуш",
+          "translation_russian": ["семейная жизнь"],
+          "category": "одушевленный предмет"
+        }
+      ]
+    }
+  ]
 }
