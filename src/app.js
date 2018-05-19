@@ -20,6 +20,9 @@ searchWord.addEventListener('keyup', e => {
   if (searchWord !== '') {
     //console.log(userText);
     getWords(userText);
+  } else {
+    document.querySelector('.section').innerHTML = '';
+    console.log('text removed');
   }
 });
 

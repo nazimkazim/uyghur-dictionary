@@ -261,6 +261,43 @@
           "category": "одушевленный предмет"
         }
       ]
+    },
+    {
+      "word_uyghur_cyrilic": "аб",
+      "translation_russian": [
+        "самостоятельно не употребляется, встречается в различных словосочетаниях и составных словах как например аби-хайат, аби-хава и т.д."
+      ],
+      "origin": "уйгурское",
+      "homonym": "-",
+      "id": 3
+    },
+    {
+      "word_uyghur_cyrilic": "абад",
+      "translation_russian": ["смотреть [авад]"],
+      "origin": "уйгурское",
+      "homonym": "-",
+      "id": 4
+    },
+    {
+      "word_uyghur_cyrilic": "абадан",
+      "translation_russian": ["смотреть [авадан]"],
+      "origin": "уйгурское",
+      "homonym": "-",
+      "id": 5
+    },
+    {
+      "word_uyghur_cyrilic": "абарот",
+      "translation_russian": ["оборот"],
+      "origin": "русское",
+      "homonym": "-",
+      "id": 6,
+      "related_words": [
+        {
+          "word_uyghur_cyrilic": "сода абароти",
+          "translation_russian": ["торговый оборот"],
+          "category": "коммерция"
+        }
+      ]
     }
   ]
 }
