@@ -32,7 +32,7 @@ function getWords(input) {
     .then(data =>
       data.forEach(function(word) {
         // Initialize words_output
-        let words_output = '';
+        let words_output = '-';
 
         // Initialize categories_output
         let categories_output = '';
@@ -48,9 +48,7 @@ function getWords(input) {
           '.categories_container'
         );
 
-        if (word.sphere === 'undefined') {
-          console.log('sphere is undefined you know');
-        }
+        removeUndefined(word);
 
         if (matchedWord) {
           // Append found words to container
@@ -78,11 +76,9 @@ function getWords(input) {
                         </div>
                       </div>
                     </nav>
-                    <h1 class="title">
-                    <span>
-                      ${word.word_uyghur_cyrilic} - ${word.translation_russian}
-                    </span>
-                    </h1>
+                    <h2 class="title">
+                    ${word.word_uyghur_cyrilic} - ${word.translation_russian}
+                    </h2>
                     </div>
                 </div>
                 </section>
@@ -176,6 +172,19 @@ function getWords(input) {
       }
     }
     //console.log(childrenNodeList);
+  }
+
+  function removeUndefined(word) {
+    if (word.sphere === undefined) {
+      word.sphere = '-';
+      return word.sphere;
+    } else if (word.origin === undefined) {
+      word.origin = '-';
+      return word.origin;
+    } else if (word.homonym === undefined) {
+      word.homonym = '-';
+      return word.homonym;
+    }
   }
 
   // Function responsible for creating a unique array
