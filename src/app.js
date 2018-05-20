@@ -48,6 +48,10 @@ function getWords(input) {
           '.categories_container'
         );
 
+        if (word.sphere === 'undefined') {
+          console.log('sphere is undefined you know');
+        }
+
         if (matchedWord) {
           // Append found words to container
           document.querySelector('.my-container').innerHTML = `
@@ -65,6 +69,12 @@ function getWords(input) {
                         <div>
                           <p class="heading">Омоним</p>
                           <p class="title">${word.homonym}</p>
+                        </div>
+                      </div>
+                      <div class="level-item has-text-centered">
+                        <div>
+                          <p class="heading">Сфера</p>
+                          <p class="title">${word.sphere}</p>
                         </div>
                       </div>
                     </nav>

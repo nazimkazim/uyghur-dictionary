@@ -298,6 +298,74 @@
           "category": "коммерция"
         }
       ]
+    },
+    {
+      "word_uyghur_cyrilic": "абайлимақ",
+      "translation_russian": ["см. авайлимақ"],
+      "origin": "уйгурское",
+      "homonym": "-",
+      "id": 7
+    },
+    {
+      "word_uyghur_cyrilic": "абжуваз",
+      "translation_russian": [
+        "хлопковая маслобойка (водяная)",
+        "крупорушка (водяная)"
+      ],
+      "origin": "уйгурское",
+      "homonym": "-",
+      "id": 8
+    },
+    {
+      "word_uyghur_cyrilic": "абжувазчи",
+      "translation_russian": [
+        "владелец маслобйки",
+        "владелец крупорушки",
+        "человек, работающий на водяной крупорушке, маслобойке"
+      ],
+      "origin": "уйгурское",
+      "homonym": "-",
+      "id": 8
+    },
+    {
+      "word_uyghur_cyrilic": "абхаз",
+      "translation_russian": ["абхазец"],
+      "origin": "русское",
+      "homonym": "-",
+      "id": 9,
+      "related_words": [
+        {
+          "word_uyghur_cyrilic": "абхаз хәлқи",
+          "translation_russian": ["абхазский народ", "абхазцы"],
+          "category": "народности"
+        },
+        {
+          "word_uyghur_cyrilic": "абхазийилиқ",
+          "translation_russian": ["абхазец", "житель Абхазии"],
+          "category": "народности"
+        }
+      ]
+    },
+    {
+      "word_uyghur_cyrilic": "абдал",
+      "translation_russian": [
+        "человек, совершающий обряд обрезания",
+        "переносное значение: живодер"
+      ],
+      "origin": "русское",
+      "homonym": "-",
+      "sphere": "религия",
+      "id": 9,
+      "related_words": [
+        {
+          "word_uyghur_cyrilic": "абдаллиқ қилмақ",
+          "translation_russian": [
+            "совершать обряд обрезания",
+            "переносное значение: живодерство"
+          ],
+          "category": "традиции"
+        }
+      ]
     }
   ]
 }
