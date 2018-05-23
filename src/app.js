@@ -32,7 +32,7 @@ function getWords(input) {
     .then(data =>
       data.forEach(function(word) {
         // Initialize words_output
-        let words_output = '-';
+        let words_output = '';
 
         // Initialize categories_output
         let categories_output = '';

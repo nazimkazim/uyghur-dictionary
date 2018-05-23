@@ -326,14 +326,14 @@
       ],
       "origin": "уйгурское",
       "homonym": "-",
-      "id": 8
+      "id": 9
     },
     {
       "word_uyghur_cyrilic": "абхаз",
       "translation_russian": ["абхазец"],
       "origin": "русское",
       "homonym": "-",
-      "id": 9,
+      "id": 10,
       "related_words": [
         {
           "word_uyghur_cyrilic": "абхаз хәлқи",
@@ -356,7 +356,7 @@
       "origin": "русское",
       "homonym": "-",
       "sphere": "религия",
-      "id": 9,
+      "id": 11,
       "related_words": [
         {
           "word_uyghur_cyrilic": "абдаллиқ қилмақ",
@@ -365,6 +365,60 @@
             "переносное значение: живодерство"
           ],
           "category": "традиции"
+        }
+      ]
+    },
+    {
+      "word_uyghur_cyrilic": "абдәстә",
+      "translation_russian": ["кувшин для умывания (маленький)"],
+      "origin": "персидское",
+      "homonym": "-",
+      "sphere": "-",
+      "id": 12
+    },
+    {
+      "word_uyghur_cyrilic": "абромән",
+      "translation_russian": ["авторитетный (имеющий хорошую репутацию)"],
+      "origin": "персидское",
+      "homonym": "-",
+      "sphere": "-",
+      "id": 13
+    },
+    {
+      "word_uyghur_cyrilic": "аброй",
+      "translation_russian": [
+        "авторитет",
+        "хорошая репутация",
+        "престиж",
+        "хорошее имя"
+      ],
+      "origin": "персидское",
+      "homonym": "-",
+      "sphere": "-",
+      "id": 14,
+      "related_words": [
+        {
+          "word_uyghur_cyrilic": "абройи йоқ адәм",
+          "translation_russian": [
+            "неавторитетный человек",
+            "человек не имеющий хорошей репутации"
+          ],
+          "category": "качества"
+        },
+        {
+          "word_uyghur_cyrilic": "абройға тәгмәк",
+          "translation_russian": ["посягать на чей-либо авторитет"],
+          "category": "качества"
+        },
+        {
+          "word_uyghur_cyrilic": "у мениң абройимға тәгди",
+          "translation_russian": ["он посягнул на мой авторитет"],
+          "category": "качества"
+        },
+        {
+          "word_uyghur_cyrilic": "абройини төкмәк",
+          "translation_russian": ["подрывать чей-либо авторитет"],
+          "category": "качества"
         }
       ]
     }
